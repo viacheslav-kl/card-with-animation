@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./src/output.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400..600&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Test for ADWIN</title>
+	</head>
+	<body class="font-sans color-gray-800 font-normal">
+		<div
+			class="container w-full h-screen flex justify-center items-center mx-auto p-2"
+		>
+			<div
+				class="card min-w-card max-w-card maxCardWidth w-full h-card shadow-first relative overflow-hidden bg-gray-300"
+			>
+				<div class="card__top w-full h-card-top z-10">
+					<div
+						class="card__top-image w-full h-full bg-center bg-no-repeat bg-cover"
+					></div>
+					<div class="card__top-btn absolute top-3 right-3">
+						<form action="##">
+							<button
+								class="bg-white border border-solid border-gray-200 font-medium text-xs p-1.5 rounded-md"
+							>
+								button
+							</button>
+						</form>
+					</div>
+				</div>
+
+				<div
+					class="card__bottom group py-4 px-3 w-full h-bottom-before-hover absolute bottom-0 z-20 bg-white transition-all ease-[cubic-bezier(0.45,1.45,0.8,1)] duration-300 hover:h-bottom-after-hover"
+				>
+					<div class="card__body">
+						<div class="card__body-top flex justify-between items-center mb-3">
+							<div class="body-top__title">
+								<div class="body-top__supheader text-sm text-gray-500">
+									Supheader
+								</div>
+								<div class="body-top__header text-xl font-medium">Header</div>
+							</div>
+							<div class="body-top__text font-medium text-lg">Text</div>
+						</div>
+						<div
+							class="card__body-middle py-3 border-t border-solid border-gray-200 hidden group-hover:block"
+						>
+							<div
+								class="body-middle__list flex justify-between items-center text-sm mb-2"
+							>
+								<span class="text-gray-500">Text</span>
+								<a href="##">Link</a>
+							</div>
+							<div
+								class="body-middle__list flex justify-between items-center text-sm mb-2"
+							>
+								<span class="text-gray-500">Text</span>
+								<a href="##">Link</a>
+							</div>
+							<div
+								class="body-middle__list flex justify-between items-center text-sm mb-2"
+							>
+								<span class="text-gray-500">Text</span>
+								<a href="##">Link</a>
+							</div>
+							<div
+								class="body-middle__list flex justify-between items-center text-sm"
+							>
+								<span class="text-gray-500">Text</span>
+								<a href="##">Link</a>
+							</div>
+						</div>
+						<div class="card__body-bottom text-center">
+							<div class="body-bottom__btn mb-1">
+								<form action="##">
+									<button
+										class="text-mainBtn py-3.5 px-4 font-semibold text-white rounded-lg bg-gray-500 w-full"
+									>
+										Button
+									</button>
+								</form>
+							</div>
+							<div class="body-bottom__subtext text-gray-500 text-xs">
+								Sub text
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
